@@ -1,0 +1,28 @@
+/*** Base styles ***/
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Titan one', sans-serif;
+  font-size: 4em;
+  text-align: center;
+}
+
+/*** Base layout styles ***/
+
+html {
+  margin: 0 auto;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
