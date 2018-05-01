@@ -1,4 +1,7 @@
-/*** Base styles ***/
+/*** Base styles ***
+********************/
+
+/* element styles */
 
 * {
   box-sizing: border-box;
@@ -6,11 +9,27 @@
 
 h1 {
   font-family: 'Titan one', sans-serif;
-  font-size: 4em;
+  font-size: 2em;
   text-align: center;
 }
 
-/*** Base layout styles ***/
+h2 {
+  font-family: 'Titan one', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+img {
+	max-width: 100%;
+}
+
+/*** Base layout styles ***
+***************************/
+
+html {
+  paddng: 0;
+  margin: 0;
+}
 
 body {
   width: 100%;
@@ -21,4 +40,11 @@ header {
   width: 100%;
   margin: 0 auto;
   text-align: center;
+  background-color: grey;
+  padding: 0;
+}
+
+.main-wrapper {
+  max-width: 95%;
+  margin: 0 auto;
 }
