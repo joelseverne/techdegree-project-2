@@ -5,34 +5,53 @@
 
 * {
   box-sizing: border-box;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 h1 {
-  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 2em;
   text-align: center;
 }
 
 h2 {
-  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 1.5em;
   text-align: center;
+  margin: 2em auto;
 }
 
 img {
 	max-width: 100%;
 }
 
+nav {
+  text-align: center;
+  width: 100%;
+}
+
 ul {
   list-style-type: none;
   text-align: center;
+  width: 100%;
+  padding-left: 0;
 }
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.profile-image {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  max-width: 75%;
+}
+
 
 /*** Base layout styles ***
 ***************************/
 
 html {
-  paddng: 0;
+  padding: 0;
   margin: 0;
 }
 
@@ -58,4 +77,19 @@ header {
 .main-wrapper {
   max-width: 95%;
   margin: 0 auto;
+
+}
+
+/*** pseudo classes ***
+***************************/
+
+nav li {
+  padding: 0.5em;
+  margin: 0.25em auto;
+  background-color: #FFFFFF;
+  width: 100%
+}
+
+a:hover {
+  color: #FFD6F4;
 }
