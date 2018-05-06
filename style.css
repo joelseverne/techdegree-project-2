@@ -60,6 +60,7 @@ figcaption {
 
 footer {
   background-color: #F2F3F4;
+  margin-bottom: 0;
 
 }
 
@@ -74,8 +75,8 @@ footer {
 .footer-nav {
   background-color: #F2F3F4;
   max-width: 80%;
-  border-bottom: solid 1px #85929E;
 }
+
 
 /*** Base layout styles ***
 ***************************/
@@ -124,3 +125,14 @@ nav li {
 a:hover {
   color: #FFD6F4;
 }
+
+.footer-nav li {
+  min-width: 40%;
+  padding: 0;
+  display: inline-block;
+  background-color: #FFFFFF;\
+  margin: 0 auto;
+}
+
+/*** floats ***
+***************************/
