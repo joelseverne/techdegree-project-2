@@ -17,6 +17,7 @@ h2 {
   font-size: 1.5em;
   text-align: center;
   margin: 2em auto;
+  padding-top: 2%;
 }
 
 img {
@@ -75,6 +76,23 @@ footer {
 .footer-nav {
   background-color: #F2F3F4;
   max-width: 80%;
+  border-top: solid 1px black;
+  margin: 0 auto;
+}
+
+.studentname {
+  float: left;
+  background-color: #F2F3F4;
+}
+
+.totop {
+  float: right;
+  background-color: #F2F3F4;
+
+}
+
+.contact {
+  padding-top: 1.5em;
 }
 
 
@@ -126,12 +144,21 @@ a:hover {
   color: #FFD6F4;
 }
 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
 .footer-nav li {
-  min-width: 40%;
-  padding: 0;
-  display: inline-block;
-  background-color: #FFFFFF;
-  margin: 0 auto;
+  float: left;
+}
+
+.footer-wrapper p {
+  text-align: center;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 /*** floats ***
