@@ -20,6 +20,10 @@ h2 {
   padding-top: 2%;
 }
 
+p {
+  font-size: 1em;
+}
+
 img {
 	max-width: 100%;
 }
@@ -85,14 +89,15 @@ footer {
   background-color: #F2F3F4;
   width: 40%;
   margin-left: 0;
+  text-align: center;
 }
 
 .totop {
   float: right;
   background-color: #F2F3F4;
   width: 40%;
-  margin-right: 0;
-  padding-right: 0;
+  margin-right: 0 auto;
+  text-align: center;
 
 
 
@@ -144,7 +149,6 @@ nav li {
   padding: 0.5em;
   margin: 0.25em auto;
   background-color: #FFFFFF;
-  width: 100%
 }
 
 a:hover {
@@ -167,6 +171,3 @@ a:hover {
   padding-left: 2%;
   padding-right: 2%;
 }
-
-/*** floats ***
-***************************/
