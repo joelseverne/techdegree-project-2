@@ -79,12 +79,13 @@ footer {
 
 .footer-nav {
   background-color: #F2F3F4;
-  max-width: 80%;
+  max-width: 90%;
   border-top: solid 1px black;
   margin: 0 auto;
+  padding-bottom: 1em;
 }
 
-.studentname {
+/* .studentname {
   float: left;
   background-color: #F2F3F4;
   width: 40%;
@@ -98,10 +99,7 @@ footer {
   width: 40%;
   margin-right: 0 auto;
   text-align: center;
-
-
-
-}
+} */
 
 .contact {
   padding-top: 1.5em;
@@ -164,6 +162,10 @@ a:hover {
 
 .footer-nav li {
   float: left;
+  width: 50%;
+  background-color: #F2F3F4;
+  margin-bottom: 5px;
+  padding: 5px;
 }
 
 .footer-wrapper p {
