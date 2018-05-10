@@ -83,11 +83,18 @@ footer {
 .studentname {
   float: left;
   background-color: #F2F3F4;
+  width: 40%;
+  margin-left: 0;
 }
 
 .totop {
   float: right;
   background-color: #F2F3F4;
+  width: 40%;
+  margin-right: 0;
+  padding-right: 0;
+
+
 
 }
 
