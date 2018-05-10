@@ -85,12 +85,12 @@ footer {
   padding-bottom: 1em;
 }
 
-/* .studentname {
+.studentname {
   float: left;
   background-color: #F2F3F4;
   width: 40%;
   margin-left: 0;
-  text-align: center;
+  text-align: left;
 }
 
 .totop {
@@ -98,8 +98,8 @@ footer {
   background-color: #F2F3F4;
   width: 40%;
   margin-right: 0 auto;
-  text-align: center;
-} */
+  text-align: right;
+}
 
 .contact {
   padding-top: 1.5em;
@@ -161,7 +161,6 @@ a:hover {
 
 
 .footer-nav li {
-  float: left;
   width: 50%;
   background-color: #F2F3F4;
   margin-bottom: 5px;
