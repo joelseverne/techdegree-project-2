@@ -89,7 +89,6 @@ footer {
   float: left;
   background-color: #F2F3F4;
   width: 40%;
-  margin-left: 0;
   text-align: left;
 }
 
@@ -97,7 +96,6 @@ footer {
   float: right;
   background-color: #F2F3F4;
   width: 40%;
-  margin-right: 0 auto;
   text-align: right;
 }
 
@@ -171,4 +169,33 @@ a:hover {
   text-align: center;
   padding-left: 2%;
   padding-right: 2%;
+}
+
+/*** Base styles ***
+********************/
+
+/*** tablet ***
+***************************/
+
+@media (min-width: 768px) {
+
+  figure {
+    width: 40%;
+    display: inline-block;
+    /* margin: 0 auto; */
+  }
+
+  .main-wrapper {
+    width: 90%;
+  }
+
+}
+
+
+
+/*** Desktop ***
+***************************/
+
+@media (min-width: 1024px) {
+
 }
