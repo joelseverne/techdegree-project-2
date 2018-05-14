@@ -257,6 +257,7 @@ a:hover {
     display: inline-block;
     max-width: 25%;
     float: left;
+    /* margin-left: 0.5em; */
   }
 
   .header-nav {
@@ -264,10 +265,30 @@ a:hover {
     display: inline-block;
     max-width: 25%;
     float: right;
+    /* margin-right: 0.5em; */
+  }
+
+  .header-content {
+    max-width: 100%;
+    display: inline-block;
+    margin: 0 auto;
   }
 
   .profile-image {
-    padding-top: 10%;
+    float: right;
+    max-width: 30%;
+    text-align: right;
+    margin-right: 0;
+    padding-right: 0;
+  }
+
+  .header-tagline {
+    float: left;
+    max-width: 40%;
+    text-align: left;
+    margin-left: 0;
+    font-size: 1.25em;
+    padding-left: 0;
   }
 
   figure {
