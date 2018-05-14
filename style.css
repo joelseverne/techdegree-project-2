@@ -174,12 +174,16 @@ a:hover {
 /*** Base styles ***
 ********************/
 
-/*** tablet ***
+/*** media queries ***
 ***************************/
 
 @media (min-width: 768px) {
 
 /* element styles */
+
+  header {
+    display: inline-block;
+  }
 
   .header-nav li {
     display: inline-block;
@@ -208,12 +212,11 @@ a:hover {
 
   .header-tagline {
     float: left;
-    max-width: 40%;
+    max-width: 60%;
     text-align: left;
     margin: 0 auto;
     font-size: 1.25em;
     padding-left: 2em;
-
   }
 
   figure {
@@ -224,9 +227,14 @@ a:hover {
 
 /* layout styles */
 
+
   .main-wrapper {
     text-align: center;
     max-width: 95%;
+  }
+
+  .header-wrapper {
+    padding-bottom: 2.5em;
   }
 
   .footer-wrapper {
@@ -234,14 +242,51 @@ a:hover {
     margin: auto;
   }
 
-
 }
-
 
 
 /*** Desktop ***
 ***************************/
 
 @media (min-width: 1024px) {
+
+  /* element styles */
+
+  .main-heading {
+    text-align: left;
+    display: inline-block;
+    max-width: 25%;
+    float: left;
+  }
+
+  .header-nav {
+    text-align: right;
+    display: inline-block;
+    max-width: 25%;
+    float: right;
+  }
+
+  .profile-image {
+    padding-top: 10%;
+  }
+
+  figure {
+    width: 28%;
+    display: inline-block;
+    text-align: center;
+  }
+
+
+  /* layout styles */
+
+  body {
+    background-color: #F2F3F4;
+  }
+
+  .main-wrapper {
+    max-width: 95%;
+    margin: 0 auto;
+    background-color: #fff;
+  }
 
 }
