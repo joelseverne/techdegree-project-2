@@ -66,7 +66,10 @@ figcaption {
 footer {
   background-color: #F2F3F4;
   margin-bottom: 0;
+}
 
+address {
+  padding-bottom: 1.5em;
 }
 
 .footer-body {
@@ -256,6 +259,9 @@ a:hover {
     padding-bottom: 3em;
   }
 
+  address {
+    padding-bottom: 3em;
+
 }
 
 
@@ -266,12 +272,16 @@ a:hover {
 
   /* element styles */
 
+  .header-wrapper {
+    margin-bottom: 0;
+  }
+
   .main-heading {
     text-align: left;
     display: inline-block;
     max-width: 25%;
     float: left;
-    /* margin-left: 0.5em; */
+    padding-bottom: 1em;
   }
 
   .header-nav {
@@ -286,6 +296,7 @@ a:hover {
     max-width: 100%;
     display: inline-block;
     margin: 0 auto;
+    padding-bottom: 0;
   }
 
   .profile-image {
@@ -305,6 +316,10 @@ a:hover {
     padding-left: 0;
   }
 
+  .main-wrapper {
+    min-height: calc(100vh - 389px);
+  }
+
   figure {
     width: 28%;
     display: inline-block;
@@ -322,6 +337,14 @@ a:hover {
     max-width: 95%;
     margin: 0 auto;
     background-color: #fff;
+  }
+
+  .footer-wrapper {
+    min-width: 95%;
+  }
+
+  .contact {
+    padding-top: 1em;
   }
 
 }
