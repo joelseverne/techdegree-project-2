@@ -200,6 +200,10 @@ a:hover {
     padding-right: 2em;
   }
 
+  .header-content {
+    padding-bottom: 12em;
+  }
+
   .main-heading {
     text-align: left;
     display: inline-block;
@@ -217,6 +221,7 @@ a:hover {
     margin: 0 auto;
     font-size: 1.25em;
     padding-left: 2em;
+    padding-right: 2em;
   }
 
   figure {
@@ -238,8 +243,17 @@ a:hover {
   }
 
   .footer-wrapper {
-    max-width: 80%;
+    max-width: 90%;
     margin: auto;
+    /* padding-top: 1em; */
+  }
+
+  .contact {
+    padding-top: 3em;
+  }
+
+  .footer-nav {
+    padding-bottom: 3em;
   }
 
 }
