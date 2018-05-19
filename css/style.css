@@ -11,6 +11,12 @@ body {
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
+h1,
+h2,
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
 h1 {
   font-size: 2em;
   text-align: center;
