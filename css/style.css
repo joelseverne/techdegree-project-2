@@ -5,6 +5,9 @@
 
 * {
   box-sizing: border-box;
+}
+
+body {
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
@@ -55,6 +58,29 @@ figure {
   padding-left: 0;
   padding-right: 0;
   margin: 2.5%;
+}
+
+.skills-title {
+  border-top: solid 1px #000;
+  padding-top: 2em;
+  max-width: 80%;
+}
+
+.skills {
+  padding-bottom: 0;
+  min-width: 100%;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.experience,
+.interests {
+  display: block;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 2.5%;
+  padding-bottom: 1em;
 }
 
 figcaption {
@@ -144,7 +170,11 @@ header {
   width: 95%;
   margin: 0 auto;
   padding: 0;
+}
 
+.footer-wrapper {
+  min-width: 100%;
+  margin: 0;
 }
 
 /*** pseudo classes ***
@@ -158,6 +188,7 @@ nav li {
 
 a:hover {
   color: #FFD6F4;
+  font-style: italic;
 }
 
 .clearfix::after {
@@ -231,6 +262,16 @@ a:hover {
     width: 40%;
     display: inline-block;
     text-align: center;
+  }
+
+  .experience,
+  .interests {
+    min-width: 45%;
+    min-height: 100%;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 2em;
   }
 
 /* layout styles */
@@ -366,5 +407,29 @@ a:hover {
   .contact {
     padding-top: 1em;
   }
+
+  .skills {
+    padding-bottom: 1em;
+  }
+
+  .skills-title {
+    margin-bottom: 1em;
+  }
+
+  .experience,
+  .interests {
+    min-width: 40%;
+    min-height: 100%;
+    display: inline-block;
+    text-align: center;
+    margin: 1em auto;
+    padding-bottom: 1em;
+  }
+
+  .interests p {
+    margin: 0;
+  }
+
+
 }
 }
