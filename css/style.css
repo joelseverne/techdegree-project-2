@@ -15,6 +15,7 @@ h1,
 h2,
 h3 {
   font-family: 'Montserrat', sans-serif;
+  color: #FFD6F4;
 }
 
 h1 {
@@ -388,8 +389,7 @@ a:hover {
   }
 
   figure {
-    width: 28%;
-    display: inline-block;
+    width: 26%;
     text-align: center;
   }
 
