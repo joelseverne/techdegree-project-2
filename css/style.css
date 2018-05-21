@@ -141,6 +141,7 @@ address {
 
 .home-link,
 .portfolio-link,
+.skills-link,
 .contact-link {
   display: none;
 }
@@ -323,6 +324,7 @@ a:hover {
 
   .home-link,
   .portfolio-link,
+  .skills-link,
   .contact-link {
     float: right;
     display: inline-block;
